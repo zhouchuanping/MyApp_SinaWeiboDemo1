@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="72dp">
+
+    <ImageView
+        android:id="@+id/iv_avatar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="16dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher"
+        android:layout_gravity="center_vertical"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_content"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="72dp">
+
+        <TextView
+            android:id="@+id/tv_subhead"
+            style="@style/TextViewSubhead"
+            android:text="大帅哥"/>
+
+        <TextView
+            android:id="@+id/tv_caption"
+            style="@style/TextViewCaption"
+            android:layout_alignParentBottom="true"
+            android:text="没错，全宇宙最最帅的人就是我~"
+            android:textColor="@color/txt_gray"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
